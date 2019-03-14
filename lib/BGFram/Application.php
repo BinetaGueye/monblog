@@ -52,7 +52,8 @@ abstract class Application
       if ($e->getCode() == Router::NO_ROUTE)
       {
         // Si aucune route ne correspond, c'est que la page demandée n'existe pas.
-        var_dump($this->httpRequest->requestURI());
+        //var_dump("salut");
+        //var_dump($this->httpRequest->requestURI());
         $this->httpResponse->redirect404();
 
       }

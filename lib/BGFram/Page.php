@@ -32,7 +32,7 @@ var_dump($this->contentFile);
     $content = ob_get_clean();
 
     ob_start();
-      require '/var/www/html/bblo/App/'.$this->app->name().'/Templates/layout.php';
+      require '/var/www/html/monblog/App/'.$this->app->name().'/Templates/layout.php';
     return ob_get_clean();
   }
 
