@@ -1,2 +1,2 @@
 # monblog
-Partie frontend de mon blog
+Mon blog perso !
